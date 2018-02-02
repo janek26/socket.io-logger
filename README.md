@@ -1,7 +1,3 @@
-[![Build Status](https://travis-ci.org/turbonetix/socket.io-logger.svg?branch=master)](https://travis-ci.org/turbonetix/socket.io-logger)
-[![NPM version](https://badge.fury.io/js/socket.io-logger.svg)](http://badge.fury.io/js/socket.io-logger)
-[![David DM](https://david-dm.org/turbonetix/socket.io-logger.png)](https://david-dm.org/turbonetix/socket.io-logger.png)
-
 Simple logger middleware for [socket.io](https://github.com/Automattic/socket.io "socket.io").
 
 `$ npm install socket.io-logger`
@@ -16,7 +12,7 @@ io.use(logger);
 
 # Features
 
-* Data is flattened with [flat](https://www.npmjs.org/package/flat "flat").
+* Data is **NOT** flattened with [flat](https://www.npmjs.org/package/flat "flat"). This is the only change in this fork.
 * Customized formatting support.
 * Plugable interface to use with your favorite logger packages.
 
